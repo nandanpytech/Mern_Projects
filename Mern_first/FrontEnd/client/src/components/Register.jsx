@@ -19,8 +19,6 @@ export default function Register() {
       method:"POST",
       headers:{
         "Content-Type" : "application/json",
-        "Access-Control-Allow-Origin" : "*", 
-"Access-Control-Allow-Credentials" : true 
       },
       body:JSON.stringify({
         name,email,phone,work,password,cpassword
