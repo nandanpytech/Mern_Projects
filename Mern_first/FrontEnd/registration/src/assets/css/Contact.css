@@ -1,0 +1,8 @@
+.Contain{
+    width: 60%;
+    margin: 2rem auto;
+}
+.box_model{
+    display: flex;
+    justify-content: space-between;
+}
